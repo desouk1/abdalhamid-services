@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>مؤسسة عبد الحميد عبد الرحمن آل الشيخ</title>
+ 
+ <img src="https://commons.wikimedia.org/wiki/File:Official_logo_est_abdalhamid.jpg" alt="مؤسسة" width="300">
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Arial;
+direction:rtl;
+background:#f5f7fa;
+line-height:1.6;
+}
+
+/* Header */
+
+header{ 
+background:#0A3D62;
+color:orange;
+text-align:center;
+padding:25px 15px;
+}
+
+header h1{
+font-size:26px;
+margin-bottom:8px;
+}
+
+/* Navigation */
+
+nav{
+background:#082B45;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+nav a{
+color:red;
+padding:12px 18px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+background:#0A3D62;
+}
+
+/* Hero */
+
+.hero{
+background:url('hero.jpg') center/cover no-repeat;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h2{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+/* Info */
+
+.info{
+background:#0A3D62;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+.info h2{
+margin-bottom:10px;
+}
+
+/* Services */
+
+.services{
+padding:60px 20px;
+background:white;
+text-align:center;
+}
+
+.services h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:1000px;
+margin:auto;
+}
+
+.service-box{
+background:#f5f7fa;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.service-box:hover{
+transform:translateY(-5px);
+}
+
+.service-box h3{
+color:#0A3D62;
+margin-bottom:10px;
+}
+
+/* Contact */
+
+.contact{
+padding:60px 20px;
+text-align:center;
+background:white;
+}
+
+.contact h2{
+margin-bottom:20px;
+}
+
+.contact button{
+background:#00AEEF;
+color:white;
+border:none;
+padding:15px 30px;
+font-size:18px;
+border-radius:6px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.contact button:hover{
+background:#008fc2;
+}
+
+/* Map */
+
+.map{
+margin-top:30px;
+}
+
+/* WhatsApp */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Footer */
+
+footer{
+background:#0A3D62;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero{
+padding:70px 20px;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+.services h2{
+font-size:26px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>مؤسسة عبد الحميد عبد الرحمن آل الشيخ لإدارة المشاريع</h1>
+<p>Abdulhameed Project Management Est</p>
+
+</header>
+
+<nav>
+
+<a href="#">الرئيسية</a>
+<a href="#services">الخدمات</a>
+<a href="#contact">تواصل معنا</a>
+
+</nav>
+
+<section class="hero">
+
+<h2>متخصصون في صيانة المباني وأجهزة التبريد</h2>
+
+<p>Specialized in Maintenance of Cooling Systems & Buildings</p>
+
+</section>
+
+<section class="info">
+
+<h2>📍 الرياض - المملكة العربية السعودية</h2>
+
+<p>نقوم بتنفيذ جميع أنواع أعمال الصيانة</p>
+
+<p>We carry out all types of maintenance works</p>
+
+</section>
+
+<section class="services" id="services">
+
+<h2>خدماتنا</h2>
+
+<div class="services-grid">
+
+<div class="service-box">
+<h3>صيانة أجهزة التبريد</h3>
+<p>Maintenance of Cooling Systems</p>
+</div>
+
+<div class="service-box">
+<h3>صيانة المباني</h3>
+<p>Building Maintenance</p>
+</div>
+
+<div class="service-box">
+<h3>أعمال السباكة</h3>
+<p>Plumbing Works</p>
+</div>
+
+<div class="service-box">
+<h3>أعمال الجبس</h3>
+<p>Gypsum Works</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>تواصل معنا</h2>
+
+<p>📞 +966 53 189 7840</p>
+
+<p>
+📍 طريق الملك خالد، حي الملقا، شارع خلف بن سعيد<br>
+6871 الرياض، الرياض 13522<br>
+المملكة العربية السعودية
+</p>
+
+<button onclick="window.location.href='https://wa.me/966531897840'">
+
+تواصل عبر واتساب
+
+</button>
+
+<div class="map">
+
+<iframe
+src="https://maps.google.com/maps?q=King%20Khalid%20Road%20Al%20Malqa%20Riyadh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="90%"
+height="400"
+style="border:0;"
+allowfullscreen
+loading="lazy">
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 جميع الحقوق محفوظة</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/966531897840">
+
+💬 واتساب
+
+</a>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
